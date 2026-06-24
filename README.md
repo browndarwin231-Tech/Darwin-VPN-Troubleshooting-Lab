@@ -145,6 +145,7 @@ Analyzed the network route using `tracert google.com`.
 Reviewed installed networking protocols and adapter settings.
 
 ![Ethernet Properties](08-ethernet-properties.png)
+
 ### 8. Resolution Summary
 
 Final troubleshooting documentation.
