@@ -88,7 +88,7 @@ Recorded troubleshooting steps and final resolution.
 
 Reviewed Windows VPN configuration.
 
-![VPN Settings](screenshots/01-vpn-settings.png)
+![VPN Settings](01-vpn-setting.png)
 
 ---
 
@@ -96,50 +96,55 @@ Reviewed Windows VPN configuration.
 
 Verified active network adapters.
 
-![Network Connections](screenshots/02-network-connections.png)
+![Network Connections](02-network-connections.png)
 
 ---
 
-### 3. IP Configuration
+### 3. Ethernet Status
 
-Verified adapter information using ipconfig.
+Verified the active Ethernet connection and network status.
 
-![IP Configuration](screenshots/03-ipconfig.png)
-
----
-
-### 4. Ping Test
-
-Verified internet connectivity.
-
-![Ping Test](screenshots/04-ping-test.png)
+![Ethernet Status](03-ethernet-status.png)
 
 ---
 
-### 5. Tracert
+### 4. Network Details
 
-Analyzed the network path.
+Reviewed IP address, DNS, gateway, and DHCP information.
 
-![Tracert](screenshots/05-tracert.png)
-
----
-
-### 6. NSLookup
-
-Verified DNS resolution.
-
-![NSLookup](screenshots/06-nslookup.png)
+![Network Details](04-network-details.png)
 
 ---
 
-### 7. Test-NetConnection
+### 5. IP Configuration
 
-Verified VPN server port accessibility.
+Verified adapter information using `ipconfig /all`.
 
-![Test-NetConnection](screenshots/07-test-netconnection.png)
+![IP Configuration](05-ipconfig-all.png)
 
 ---
 
+### 6. Ping Test
+
+Verified internet connectivity using `ping google.com`.
+
+![Ping Test](06-ping-google.png)
+
+---
+
+### 7. Tracert
+
+Analyzed the network route using `tracert google.com`.
+
+![Tracert](07-tracert-google.png)
+
+---
+
+### 8. Ethernet Properties
+
+Reviewed installed networking protocols and adapter settings.
+
+![Ethernet Properties](08-ethernet-properties.png)
 ### 8. Resolution Summary
 
 Final troubleshooting documentation.
