@@ -148,6 +148,17 @@ Reviewed installed networking protocols and adapter settings.
 
 ### 8. Resolution Summary
 
-Final troubleshooting documentation.
+Successfully completed a Windows 11 VPN connectivity troubleshooting workflow.
 
-![Resolution](screenshots/08-resolution.png)
+**Actions performed:**
+- Reviewed Windows VPN settings.
+- Verified active network adapters.
+- Checked IP configuration using `ipconfig /all`.
+- Confirmed internet connectivity with `ping google.com`.
+- Traced the network path using `tracert google.com`.
+- Verified network adapter properties and installed protocols.
+
+**Result:**  
+The system demonstrated normal network connectivity, successful DNS resolution, and proper adapter configuration. No VPN configuration errors or network issues were identified during testing.
+
+
